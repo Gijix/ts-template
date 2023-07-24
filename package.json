@@ -16,8 +16,10 @@
     "typescript": "^4.8.4"
   },
   "scripts": {
-    "dev": "gulp watch",
-    "start": "node dist/main.js"
+    "dev-node": "gulp watch",
+    "dev-bun": "bun run --watch src/index.ts ",
+    "build": "gulp build",
+    "start": "node dist/index.js"
   },
   "author": "Orlando",
   "license": "ISC"
